@@ -1,0 +1,273 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+
+  body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #3B5999;
+  }
+
+  .container{
+    position: relative;
+    margin-left:50px;
+    margin-top: 50px;
+    width: 1140px;
+    height: 100%;
+  }
+  h5{
+    color: #e7e6e6;
+    margin: 5px 8px;
+  }
+
+  .facebook-logo img{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    top: 17%;
+    left: 53%;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+
+  .contact-information{
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 10px;
+    margin-top: 12%;
+    margin-left: 40%;
+    max-width: 100%;
+  }
+
+  .field {
+    width: 200%;
+    height: 7vh;
+    padding: 0px 10px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+  }
+
+  .btn{
+    border: none;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    gap: 25px;
+    margin-top: 24%;
+    margin-left: 39%;
+  }
+
+  .log-in{
+    width: 205%;
+    height: 7vh;
+    background-color: #577EBC;
+    border: none;
+  }
+
+  .log-in a{
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: 600;
+    font-size: 19px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+
+  .extra-information{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    margin-top: 42%;
+    margin-left: 48%;
+  }
+
+  .extra-information a{
+    text-decoration: none;
+    color: #b7c3d8;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .fp{
+    text-align: center;
+  }
+
+  .extra-information a:hover{
+    color: #ffffff;
+  }
+  @media (min-width: 492px){
+    .container{
+      margin-left: -380px;
+    }
+  }
+  
+
+  @media (min-width: 576px){
+    .container{
+      margin-left: -100px;
+    }
+
+    .facebook-logo{
+      position: absolute;
+      margin-left: 360px;
+    }
+
+    .contact-information{
+      margin-top: 100px;
+    }
+
+    .btn{
+      margin-top: 260px;
+    }
+
+    .extra-information{
+      position: absolute;
+      margin-top: 420px;
+      margin-left: 60%;
+    }
+  }
+  @media (min-width: 600px) { 
+    .container{
+      margin-left: -50px;
+    }
+    .facebook-logo{
+      position: absolute;
+      margin-left: 370px;
+    }
+
+    .contact-information{
+      margin-top: 100px;
+      margin-left: 225px;
+
+    }
+    .btn{
+      margin-top: 240px;
+    }
+
+    .extra-information{
+      position: absolute;
+      margin-top: 420px;
+      margin-left: 60%;
+    }
+
+   }
+  
+   @media (min-width: 768px) { 
+
+    .container{
+      margin-left: -60px;
+    }
+
+    .facebook-logo{
+      position: absolute;
+      margin-left: 420px;
+    }
+
+    .contact-information{
+      margin-left: 280px;
+    }
+
+    .btn{
+      margin-top: 260px;
+      margin-left: 270px;
+    }
+
+    .extra-information{
+      margin-top: 420px;
+      margin-left: 380px;
+    }
+   }
+ 
+  @media (min-width: 800px) { 
+
+    .container{
+      margin-left: -40px;
+    }
+
+    .facebook-logo{
+      position: absolute;
+      margin-left: 420px;
+    }
+    .contact-information{
+      margin-left: 280px;
+    }
+
+    .btn{
+      margin-top: 260px;
+      margin-left: 270px;
+    }
+
+    .extra-information{
+      margin-top: 440px;
+      margin-left: 380px;
+    }
+   }
+  
+ 
+  @media (min-width: 992px) { 
+
+    .container{
+      margin-left: -50px;
+    }
+
+    .facebook-logo{
+
+      margin-left: 520px;
+
+    }
+
+  .contact-information{
+    margin-left: 360px;
+  }
+  .btn{
+    margin-left: 345px;
+    margin-top: 250px;
+  }
+
+  .extra-information{
+    margin-top: 420px;
+    margin-left: 480px;
+  }
+   }
+  
+
+  @media (min-width: 1100px) {
+  .container{
+    margin-left: 0px;
+  }
+
+  .facebook-logo{
+    position: absolute;
+    margin-top: -10px;
+    margin-left: 580px;
+  }
+
+  .contact-information{
+    margin-top: 90px;
+    margin-left: 445px;
+  }
+  .btn{
+    margin-top: 220px;
+    margin-left: 430px;
+  }
+
+  .extra-information{
+    margin-top: 420px;
+    margin-left: 550px;
+  }
+  
+}
+  @media (min-width: 1200px) { 
+
+    .container{
+     
+      margin-left: 50px;
+    }
+    
+   }
+  
+  
+   
