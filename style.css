@@ -98,6 +98,46 @@
   .extra-information a:hover{
     color: #ffffff;
   }
+
+
+  @media (max-width: 490px){
+    .container{
+      width: 100%;
+      margin-left: -70px;
+   
+    }
+
+    .facebook-logo{
+      position: absolute;
+      margin-left: 220px;
+    }
+
+    .contact-information{
+      margin-top: 100px;
+      margin-left: 160px;
+    }
+
+    .field{
+      width: 130%;
+    }
+
+    .btn{
+      margin-top: 260px;
+      margin-left: 150px;
+    }
+
+    .log-in{
+      width:130%;
+    }
+
+    .extra-information{
+      margin-top: 480px;
+      margin-left: 200px;
+      
+    }
+  }
+
+
   @media (min-width: 492px){
     .container{
       margin-left: -380px;
