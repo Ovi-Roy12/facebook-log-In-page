@@ -82,6 +82,7 @@
     position: absolute;
     margin-top: 42%;
     margin-left: 48%;
+    align-items: center;
   }
 
   .extra-information a{
@@ -89,123 +90,192 @@
     color: #b7c3d8;
     font-size: 16px;
     font-weight: 600;
+
   }
 
-  .fp{
-    text-align: center;
-  }
+  
 
   .extra-information a:hover{
     color: #ffffff;
   }
-
-
-  @media (max-width: 490px){
+  @media (min-width: 320px){
     .container{
-      width: 100%;
-      margin-left: -70px;
-   
+      width: 125%;
+      margin-left: -230px;
     }
 
     .facebook-logo{
       position: absolute;
+      margin-left: 350px;
+    }
+    .contact-information{
+      margin-top: 100px;
       margin-left: 220px;
     }
 
-    .contact-information{
-      margin-top: 100px;
-      margin-left: 160px;
-    }
-
-    .field{
-      width: 130%;
-    }
-
     .btn{
       margin-top: 260px;
-      margin-left: 150px;
-    }
-
-    .log-in{
-      width:130%;
+      margin-left: 210px;
     }
 
     .extra-information{
-      margin-top: 480px;
-      margin-left: 200px;
-      
+      width: 40%;
+      margin-top: 440px;
+      margin-left: 300px;
     }
   }
 
 
-  @media (min-width: 492px){
-    .container{
-      margin-left: -380px;
-    }
-  }
-  
 
-  @media (min-width: 576px){
+  @media (min-width: 376px){
     .container{
-      margin-left: -100px;
+      width: auto;
+      margin-left: -210px;
     }
 
     .facebook-logo{
       position: absolute;
+      margin-left: 350px;
+    }
+    .contact-information{
+      margin-top: 100px;
+      margin-left: 220px;
+    }
+
+    .btn{
+      margin-top: 260px;
+      margin-left: 210px;
+    }
+
+    .extra-information{
+      margin-top: 420px;
+      margin-left: 280px;
+    }
+
+  }
+
+
+
+  @media (min-width: 420px){
+    .container{
+      margin-left: -210px;
+    }
+
+    .facebook-logo{
+      position: absolute;
+      margin-left: 400px;
+    }
+    .contact-information{
+      margin-top: 100px;
+      margin-left: 250px;
+    }
+
+    .btn{
+      margin-top: 260px;
+      margin-left: 240px;
+    }
+
+    .extra-information{
+      margin-top: 420px;
+      margin-left: 300px;
+    }
+  }
+
+  @media (min-width: 492px) { 
+
+    .container{
+      margin-left: -180px;
+    }
+
+    .facebook-logo{
+      position: absolute;
+      margin-left: 420px;
+    }
+    .contact-information{
+      margin-left: 280px;
+    }
+
+    .btn{
+      margin-top: 260px;
+      margin-left: 270px;
+    }
+
+    .extra-information{
+      margin-top: 460px;
+      margin-left: 320px;
+    }
+   }
+
+ 
+
+
+  @media (min-width: 600px) { 
+
+    .container{
+      margin-left: -120px;
+    }
+
+    .facebook-logo{
+      position: absolute;
+      margin-left: 420px;
+    }
+    .contact-information{
+      margin-left: 280px;
+    }
+
+    .btn{
+      margin-top: 260px;
+      margin-left: 270px;
+    }
+
+    .extra-information{
+      margin-top: 460px;
       margin-left: 360px;
     }
+   }
 
+
+
+
+
+  @media (min-width: 692px) { 
+
+    .container{
+      margin-left: -80px;
+    }
+
+    .facebook-logo{
+      position: absolute;
+      margin-left: 420px;
+    }
     .contact-information{
-      margin-top: 100px;
+      margin-left: 280px;
     }
 
     .btn{
       margin-top: 260px;
+      margin-left: 270px;
     }
 
     .extra-information{
-      position: absolute;
-      margin-top: 420px;
-      margin-left: 60%;
+      margin-top: 460px;
+      margin-left: 360px;
     }
-  }
-  @media (min-width: 600px) { 
-    .container{
-      margin-left: -50px;
-    }
-    .facebook-logo{
-      position: absolute;
-      margin-left: 370px;
-    }
-
-    .contact-information{
-      margin-top: 100px;
-      margin-left: 225px;
-
-    }
-    .btn{
-      margin-top: 240px;
-    }
-
-    .extra-information{
-      position: absolute;
-      margin-top: 420px;
-      margin-left: 60%;
-    }
-
    }
   
-   @media (min-width: 768px) { 
+
+
+
+  @media (min-width: 768px) { 
 
     .container{
-      margin-left: -60px;
+      margin-left: -80px;
     }
 
     .facebook-logo{
       position: absolute;
       margin-left: 420px;
     }
-
     .contact-information{
       margin-left: 280px;
     }
@@ -216,15 +286,18 @@
     }
 
     .extra-information{
-      margin-top: 420px;
-      margin-left: 380px;
+      margin-top: 460px;
+      margin-left: 340px;
     }
    }
- 
-  @media (min-width: 800px) { 
+  
+
+
+
+  @media (min-width: 792px) { 
 
     .container{
-      margin-left: -40px;
+      margin-left: 10px;
     }
 
     .facebook-logo{
@@ -241,8 +314,8 @@
     }
 
     .extra-information{
-      margin-top: 440px;
-      margin-left: 380px;
+      margin-top: 460px;
+      margin-left: 320px;
     }
    }
   
@@ -250,7 +323,7 @@
   @media (min-width: 992px) { 
 
     .container{
-      margin-left: -50px;
+      margin-left: 10px;
     }
 
     .facebook-logo{
@@ -268,8 +341,8 @@
   }
 
   .extra-information{
-    margin-top: 420px;
-    margin-left: 480px;
+    margin-top: 460px;
+    margin-left: 340px;
   }
    }
   
@@ -295,16 +368,20 @@
   }
 
   .extra-information{
-    margin-top: 420px;
-    margin-left: 550px;
+    margin-top: 440px;
+    margin-left: 420px;
   }
   
 }
   @media (min-width: 1200px) { 
 
     .container{
-     
       margin-left: 50px;
+    }
+
+    .extra-information{
+      margin-top: 440px;
+      margin-left: 400px;
     }
     
    }
